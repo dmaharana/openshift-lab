@@ -1,5 +1,6 @@
 # Use a container with Go pre-installed
-FROM quay.io/projectquay/golang:1.17
+# FROM quay.io/projectquay/golang:1.17
+FROM myartifacthome.jfrog.io/default-docker-virtual/projectquay/golang:1.17
 
 # Copy our source file into the container
 COPY src/hello-world.go /go/hello-world.go
